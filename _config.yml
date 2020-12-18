@@ -33,6 +33,7 @@ plugins:
 
 # Remove following warning:
 # GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# https://github.com/github/pages-gem/issues/399
 github: [metadata]
 
 # Exclude from processing.

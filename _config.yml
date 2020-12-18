@@ -26,10 +26,14 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-#theme: minima
-theme: jekyll-theme-tactile
+theme: minima
+#theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
+
+# Remove following warning:
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
